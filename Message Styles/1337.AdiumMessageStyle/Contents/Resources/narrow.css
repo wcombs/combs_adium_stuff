@@ -1,0 +1,81 @@
+/*
+ * Metrics for a narrower variant for those with short nicknames or weird
+ * font metric.
+ */
+ 
+/*
+----------------------------------------------------------------------------
+        Incoming and Context incoming messages
+----------------------------------------------------------------------------
+*/
+
+.incoming .time {
+    width:3.5em;
+}
+
+.incoming .message {
+    margin-left:9em;
+}
+
+.incoming .sender {
+    min-width:4.5em;
+}
+
+.contextincoming .time {
+    width:3.5em;
+}
+
+.contextincoming .message {
+    margin-left:9em;
+}
+
+.contextincoming .sender {
+    min-width:4.5em;
+}
+
+
+/*
+----------------------------------------------------------------------------
+        Outgoing and Context outgoing messages
+----------------------------------------------------------------------------
+*/
+
+.outgoing .time {
+    width:3.5em;
+}
+
+.outgoing .message {
+    margin-left:9em;
+}
+
+.outgoing .sender {
+    min-width:4.5em;
+}
+
+
+.contextoutgoing .time {
+    width:3.5em;
+}
+
+.contextoutgoing .message {
+    margin-left:9em;
+}
+
+.contextoutgoing .sender {
+    min-width:4.5em;
+}
+
+
+/*
+----------------------------------------------------------------------------
+        Status messages
+----------------------------------------------------------------------------
+*/
+
+.status .time {
+    width:3.5em;
+}
+
+.status .message {
+    margin-left:5.5em;
+}

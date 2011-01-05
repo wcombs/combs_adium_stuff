@@ -1,0 +1,38 @@
+Version 1.0
+-----------
+
+FIXED
+* Fixed Safari 3.0 issues:
+		- orange colour
+		- clipping at bottom of screen
+
+CHANGED
+* deleted a lot of unnecessary files
+* cleaned css code slightly
+		
+NEW
+* Added Pinky variant
+
+Version 1.1
+-----------
+
+FIXED
+* renamed file to h4x0r2
+* header image is now no longer misaligned
+
+CHANGED
+* horizontal scroll bar only appears when text is too long
+
+NEW
+
+Version 1.2
+-----------
+
+FIXED
+*  bottom of message being obscured (thanks phunnel)
+
+CHANGED
+* removed blinking cursor in header
+
+NEW
+* Added bland variant (thanks phunnel)

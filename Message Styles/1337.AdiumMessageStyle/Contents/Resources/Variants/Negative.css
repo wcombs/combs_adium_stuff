@@ -1,0 +1,138 @@
+/*
+ * A dark text on light background variant.
+ *
+ * Dotted lines and background scanlines have been removed as they don't
+ * render very well on light background, but that's probably a very subjective
+ * opinion.
+ */
+
+@import url(../main.css);
+
+body {
+    background: #c0c0c0;
+}
+
+/*
+----------------------------------------------------------------------------
+        Links
+----------------------------------------------------------------------------
+*/
+
+a {
+    color: #0000ff;
+    text-shadow: 0px 0px 20px #0000ff;
+    overflow:visible;
+}
+
+a:visited {
+    color: #aa00aa;
+    text-shadow: 0px 0px 20px #aa00aa;
+    text-decoration: underline;
+    overflow:visible;
+}
+a:hover {
+    text-decoration: none;
+    overflow:visible;
+}
+a:active {
+    text-decoration: none;
+    overflow:visible;
+}
+
+/*
+----------------------------------------------------------------------------
+        Outgoing
+----------------------------------------------------------------------------
+*/
+
+.outgoing {
+    color: #006666;
+    text-shadow: 0px 0px 20px #006666;
+}
+
+/*
+----------------------------------------------------------------------------
+        Incoming
+----------------------------------------------------------------------------
+*/
+
+.incoming {
+    color: #000000;
+    text-shadow: 0px 0px 20px #000000;
+}
+
+/*
+----------------------------------------------------------------------------
+        Incoming context
+----------------------------------------------------------------------------
+*/
+
+.contextincoming {
+    color: #666666;
+    text-shadow: 0px 0px 20px #444444;
+}
+
+.contextincoming a {
+    text-shadow: 0px 0px 20px #888888;
+}
+
+/*
+----------------------------------------------------------------------------
+        Outgoing context
+----------------------------------------------------------------------------
+*/
+
+.contextoutgoing {
+    color: #205050;
+    text-shadow: 0px 0px 20px #206060;
+}
+
+.contextoutgoing a {
+    text-shadow: 0px 0px 20px #888888;
+}
+
+/*
+----------------------------------------------------------------------------
+        Status messages
+----------------------------------------------------------------------------
+*/
+
+.status {
+	color: #444444;
+    text-shadow: 0px 0px 10px #333333;
+}
+
+.status .time {
+    border: 1px solid #333333;
+    border-right: 0px;
+}
+
+.status .message {
+    border: 1px solid #333333;
+}
+
+.status .offline {
+    color: #777777;
+    text-shadow: 0px 0px 20px #000000;
+}
+
+.status .online {
+    color: #008800;
+    text-shadow: 0px 0px 20px #00ff00;
+}
+
+.status .error {
+    color: #880000;
+    text-shadow: 0px 0px 20px #ff0000;
+}
+
+.status .return_away {
+    color: #000088;
+    text-shadow: 0px 0px 20px #0000ff;
+}
+
+.status .return_idle {
+    color: #000088;
+    text-shadow: 0px 0px 20px #0000ff;
+}
+

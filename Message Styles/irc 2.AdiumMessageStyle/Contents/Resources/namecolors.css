@@ -1,0 +1,16 @@
+@import url(../main.css);
+
+.time {
+	color: #8a8;
+}
+.sender {
+	color: gray;
+}
+
+.incoming .fname {
+    color: blue;
+}
+
+.outgoing .fname {
+    color: purple;
+}

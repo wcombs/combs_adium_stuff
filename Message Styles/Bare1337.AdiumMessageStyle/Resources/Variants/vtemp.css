@@ -1,0 +1,6 @@
+@import url(../main.css);
+body {background-color: #111;}
+a {color: #aaf;}
+.outgoing {#5e98bb}
+.incoming {color: #80ff00;background-color:#000;}
+.status {color:#aaa;}

@@ -1,0 +1,121 @@
+/*
+ * A very saturated variant for people who like to hurt their eyes. :-)
+ */
+
+@import url(../main.css);
+
+/*
+----------------------------------------------------------------------------
+        Links
+----------------------------------------------------------------------------
+*/
+
+a {
+    color: #0000ff;
+    text-shadow: 0px 0px 20px #0000ff;
+    overflow:visible;
+}
+
+a:visited {
+    color: #ff00ff;
+    text-shadow: 0px 0px 20px #ff00ff;
+    text-decoration: underline;
+    overflow:visible;
+}
+a:hover {
+    text-decoration: none;
+    overflow:visible;
+}
+a:active {
+    text-decoration: none;
+    overflow:visible;
+}
+
+/*
+----------------------------------------------------------------------------
+        Outgoing
+----------------------------------------------------------------------------
+*/
+
+.outgoing {
+    color: #00ddbb;
+    text-shadow: 0px 0px 20px #00ffff;
+}
+
+/*
+----------------------------------------------------------------------------
+        Incoming
+----------------------------------------------------------------------------
+*/
+
+.incoming {
+    color: #bbbbbb;
+    text-shadow: 0px 0px 20px #ffffff;
+}
+
+/*
+----------------------------------------------------------------------------
+        Incoming context
+----------------------------------------------------------------------------
+*/
+
+.contextincoming {
+    color: #777777;
+    text-shadow: 0px 0px 20px #888888;
+}
+
+.contextincoming a {
+    text-shadow: 0px 0px 20px #888888;
+}
+
+/*
+----------------------------------------------------------------------------
+        Outgoing context
+----------------------------------------------------------------------------
+*/
+
+.contextoutgoing {
+    color: #006060;
+    text-shadow: 0px 0px 20px #006070;
+}
+
+.contextoutgoing a {
+    text-shadow: 0px 0px 20px #888888;
+}
+
+/*
+----------------------------------------------------------------------------
+        Status messages
+----------------------------------------------------------------------------
+*/
+
+.status {
+	color: #888888;
+    text-shadow: 0px 0px 10px #aaaaaa;
+}
+
+.status .offline {
+    color: #303030;
+    text-shadow: 0px 0px 20px #404040;
+}
+
+.status .online {
+    color: #00ff00;
+    text-shadow: 0px 0px 20px #00ff00;
+}
+
+.status .error {
+    color: #ff0000;
+    text-shadow: 0px 0px 20px #ff0000;
+}
+
+.status .return_away {
+    color: #0000ff;
+    text-shadow: 0px 0px 20px #0000ff;
+}
+
+.status .return_idle {
+    color: #0000ff;
+    text-shadow: 0px 0px 20px #0000ff;
+}
+

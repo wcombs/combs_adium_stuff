@@ -1,0 +1,53 @@
+@import url("../main.css");
+
+.outgoing .message 
+{
+	color: #fd6acf;
+	text-shadow:2px 2px 7px #8700ff;
+}
+
+
+.incoming .message 
+{
+    font-weight: normal;
+    color: #fb0080;
+    text-shadow: 2px 2px 7px #430080; 
+}
+a:link { 
+	text-decoration: underline;
+ 	text-shadow:1px 1px 7px #6bffcb;
+    color: #2afefe;
+}
+
+a { color: #0ff; }
+
+a:visited { 
+	color: #007bff;
+	text-decoration: underline;
+	text-shadow:1px 1px 1px #aa0000; 
+}
+
+p {
+  color: #430080;
+}
+
+.time 
+{
+    
+	color: #fb0080;
+}
+
+.sender 
+{
+    color: #fb0080;
+}
+
+.incoming .time 
+{
+	color: #7d0040;
+}
+
+.incoming .sender 
+{
+	color: #7d0040;
+}

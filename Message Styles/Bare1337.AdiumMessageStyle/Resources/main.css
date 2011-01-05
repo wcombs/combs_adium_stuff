@@ -1,0 +1,40 @@
+body{
+	background-color: #111;
+	color: white;
+	/* font-family: Monaco;
+	font-size: 10pt; */
+	padding:0;
+	margin:0;
+}
+
+/* This makes long links not break things */
+
+a{
+	color:#aaf;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.incoming, .outgoing, .status { position: relative; padding:5px; }
+.message { overflow: auto; } 
+
+.outgoing {
+	color: #5e98bb;
+	text-align:left;
+}
+
+.incoming {
+	/*text-align:right;*/
+	/*text-shadow: 0px 0px 3px #3168b9;*/
+	                     
+	color: #80ff00;
+	background-color: #000;
+}
+
+.status{
+	text-align: center;
+	color: #aaa;
+}

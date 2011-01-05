@@ -1,0 +1,285 @@
+/*
+ * Name   : 1337 (RED)
+ * Author : Hawk Weisman
+ * Date   : Late Summer 2008
+ * Version: 0.2
+ *
+ * My first style (or perhaps "style edit"). 
+ * Modified from "1337" by Ayumi Yonosa. As she says:
+ *
+ * 		"The look of the "1337" message style is inspired by the h4x0r message style 
+ * 		(hence the name) by phrenzy from previous work by Mark Fickett.
+ *
+ * 		See http://www.adiumxtras.com/index.php?a=xtras&xtra_id=1907 for the
+ * 		h4x0r style.
+ *
+ * 		This is my first attempt at style design. Things are probably a little
+ * 		rough...
+ *
+ * 		A special "thank you!" to Catfish (http://trac.adiumx.com/wiki/catfish_man) 
+ * 		who helped me to sort out bugs and find workarounds. Arigato gozaimasu!"
+ *
+ * Enjoy!
+ */
+
+html {
+    background: rgba(0,0,0,0);
+}
+
+body {
+    background: #080808 url(images/normal/background.png) fixed;
+    color: #999999;
+    overflow: auto;
+}
+
+#Chat {
+    padding-bottom: 2ex;
+    overflow: hidden;
+}
+
+/*
+----------------------------------------------------------------------------
+        Links
+----------------------------------------------------------------------------
+*/
+
+a { color: #FFFFCC; }
+a:link { text-decoration: underline; 	text-shadow:1px 1px 7px #FFAC37; }
+a:visited { color: #FFFFCC; text-decoration: underline; text-shadow:1px 1px 1px #FFAC37;  }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+/*
+----------------------------------------------------------------------------
+        Outgoing
+----------------------------------------------------------------------------
+*/
+
+.outgoing {
+    color: #cb1312;
+    text-shadow: 0px 0px 20px #cb1312;
+}
+
+.outgoing .time {
+    float:left;
+    width:4em;
+    padding:0px;
+    margin:0px;
+}
+
+.outgoing .deco {
+    float:left;
+    padding:0px;
+    margin:0px;
+}
+
+.outgoing .sender {
+    float:left;
+    min-width:8em;
+    text-align:right;
+    overflow:visible;
+}
+.outgoing .message {
+    text-align:left;
+    padding-left:1em;
+    margin-left:13.5em;
+    overflow:visible;
+}
+
+/*
+----------------------------------------------------------------------------
+        Incoming
+----------------------------------------------------------------------------
+*/
+
+.incoming {
+    color: #999999;
+    text-shadow: 0px 0px 20px #aaaaaa;
+}
+
+.incoming .time {
+    float:left;
+    width:4em;
+    padding:0px;
+    margin:0px;
+}
+
+.incoming .deco {
+    float:left;
+    padding:0px;
+    margin:0px;
+}
+
+.incoming .sender {
+    float:left;
+    min-width:8em;
+    text-align:right;
+    overflow:visible;
+}
+
+.incoming .message {
+    text-align:left;
+    padding-left:1em;
+    margin-left:13.5em;
+    overflow:visible;
+}
+
+/*
+----------------------------------------------------------------------------
+        Incoming context
+----------------------------------------------------------------------------
+*/
+
+.contextincoming {
+    color: #666666;
+    text-shadow: 0px 0px 20px #888888;
+}
+
+.contextincoming a {
+    text-shadow: 0px 0px 20px #888888;
+}
+
+.contextincoming .time {
+    float:left;
+    width:4em;
+    padding:0px;
+    margin:0px;
+}
+
+.contextincoming .deco {
+    float:left;
+    padding:0px;
+    margin:0px;
+}
+
+.contextincoming .sender {
+    float:left;
+    min-width:8em;
+    text-align:right;
+    overflow:visible;
+}
+
+.contextincoming .message {
+    text-align:left;
+    padding-left:1em;
+    margin-left:13.5em;
+    overflow:visible;
+}
+
+/*
+----------------------------------------------------------------------------
+        Outgoing context
+----------------------------------------------------------------------------
+*/
+
+.contextoutgoing {
+    color: #940d0c;
+    text-shadow: 0px 0px 20px #940d0c;
+}
+
+.contextoutgoing a {
+    text-shadow: 0px 0px 20px #940d0c;
+}
+
+.contextoutgoing .time {
+    float:left;
+    width:4em;
+    padding:0px;
+    margin:0px;
+}
+
+.contextoutgoing .deco {
+    float:left;
+    padding:0px;
+    margin:0px;
+}
+
+.contextoutgoing .sender {
+    float:left;
+    min-width:8em;
+    text-align:right;
+    overflow:visible;
+}
+
+.contextoutgoing .message {
+    text-align:left;
+    padding-left:1em;
+    margin-left:13.5em;
+    overflow:visible;
+}
+
+/*
+----------------------------------------------------------------------------
+        Status messages
+----------------------------------------------------------------------------
+*/
+
+.status {
+    color: #777777;
+    text-shadow: 0px 0px 20px #999999;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 3em;
+    margin-right: 4em;
+}
+
+.status .time {
+    float: left;
+    text-align: center;
+    width:5em;
+    padding:0em;
+    padding-left:1em;
+    padding-right:1em;
+    border: 1px dotted #333333;
+    border-right: 0px;
+}
+
+.status .message {
+    border: 1px dotted #333333;
+    text-align: center;
+    margin-left:7em;
+    padding:0em;
+    padding-left:1em;
+    padding-right:1em;
+}
+
+.status .offline {
+    color: #303030;
+    text-shadow: 0px 0px 20px #707070;
+}
+
+.status .online {
+    color: #608060;
+    text-shadow: 0px 0px 20px #308030;
+}
+
+.status .error {
+    color: #704040;
+    text-shadow: 0px 0px 20px #bb3030;
+}
+
+.status .return_away {
+    color: #606080;
+    text-shadow: 0px 0px 20px #4040aa;
+}
+
+.status .return_idle {
+    color: #606080;
+    text-shadow: 0px 0px 20px #4040aa;
+}
+
+/*
+----------------------------------------------------------------------------
+        Misc.
+----------------------------------------------------------------------------
+*/
+
+.breaker {
+    /*
+     * This is not strictly needed but it may prevent unexpected alignment
+     * problem when overflow occurs. So we just use this dummy div anyway...
+     * Like belt and suspenders one might say...
+     */
+    clear:both;
+}
+

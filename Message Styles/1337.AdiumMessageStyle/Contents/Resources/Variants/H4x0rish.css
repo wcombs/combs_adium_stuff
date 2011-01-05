@@ -1,0 +1,136 @@
+/*
+ * A variant to (more or less) match the look of the H4x0r style by phrenzy.
+ */
+ 
+@import url(../main.css);
+
+body {
+    background: transparent url(../images/h4x0rish/background.png) fixed;
+}
+
+/*
+----------------------------------------------------------------------------
+        Links
+----------------------------------------------------------------------------
+*/
+
+a {
+    color: #2222ff;
+    text-shadow: 0px 0px 20px #6666ff;
+    overflow:visible;
+}
+
+a:visited {
+    color: #996699;
+    text-shadow: 0px 0px 20px #996699;
+    text-decoration: underline;
+    overflow:visible;
+}
+a:hover {
+    text-decoration: none;
+    overflow:visible;
+}
+a:active {
+    text-decoration: none;
+    overflow:visible;
+}
+
+/*
+----------------------------------------------------------------------------
+        Outgoing
+----------------------------------------------------------------------------
+*/
+
+.outgoing {
+    color: #00cc00;
+    text-shadow: 0px 0px 20px #00dd00;
+}
+
+/*
+----------------------------------------------------------------------------
+        Incoming
+----------------------------------------------------------------------------
+*/
+
+.incoming {
+    color: #cc9900;
+    text-shadow: 0px 0px 20px #cc9900;
+}
+
+/*
+----------------------------------------------------------------------------
+        Incoming context
+----------------------------------------------------------------------------
+*/
+
+.contextincoming {
+    color: #554400;
+    text-shadow: 0px 0px 20px #774400;
+}
+
+.contextincoming a {
+    text-shadow: 0px 0px 20px #888888;
+}
+
+/*
+----------------------------------------------------------------------------
+        Outgoing context
+----------------------------------------------------------------------------
+*/
+
+.contextoutgoing {
+    color: #004400;
+    text-shadow: 0px 0px 20px #008800;
+}
+
+.contextoutgoing a {
+    text-shadow: 0px 0px 20px #888888;
+}
+
+/*
+----------------------------------------------------------------------------
+        Status messages
+----------------------------------------------------------------------------
+*/
+
+.status {
+	color: #aaaaaa;
+    text-shadow: 0px 0px 10px #aaaaaa;
+}
+
+.status .message {
+    border: 1px dotted #991111;
+}
+
+.status .time {
+    border: 1px dotted #991111;
+    border-right: 0px dotted #991111;
+}
+
+.status .offline {
+    color: #404040;
+    text-shadow: 0px 0px 20px #505050;
+}
+
+.status .online {
+    color: #00cc00;
+    text-shadow: 0px 0px 20px #00dd00;
+}
+
+.status .error {
+    color: #990000;
+    text-shadow: 0px 0px 20px #aa0000;
+}
+
+.status .return_away {
+    color: #2020dd;
+    text-shadow: 0px 0px 20px #2020dd;
+}
+
+.status .return_idle {
+    color: #2020dd;
+    text-shadow: 0px 0px 20px #2020dd;
+}
+
+
+

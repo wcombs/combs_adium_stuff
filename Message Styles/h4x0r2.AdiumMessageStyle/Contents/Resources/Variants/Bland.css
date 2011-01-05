@@ -1,0 +1,31 @@
+@import url("../main.css");
+
+.outgoing .message, .time, .sender {
+color: #FFFFFF;
+text-shadow: none;
+}
+
+.incoming .message, .incoming .time, .incoming .sender {
+color: #3333FF;
+text-shadow: none;
+}
+
+a {
+color: #0000FF;
+text-decoration: underline;
+}
+
+a:link {
+text-shadow:1px 1px 7px #6bffcb;
+color: #2afefe;
+}
+
+a:visited {
+color: #007bff;
+text-shadow:1px 1px 1px #aa0000;
+}
+
+img {
+padding: 1px;
+border: solid 1px #3333FF;
+}

@@ -1,0 +1,165 @@
+/* textonly by Mark Fickett, 2004. Poke/edit/maul, but leave credit - think GPL */
+/* Generally: naib.webhop.org Adium-related: naib.webhop.org/~markfickett/adium */
+/* Modified by phrenzy, 2005 - http://www.baproducers.com */
+/* Further modified by Sam Aaron 2007 - http://sam.aaron.name */
+
+
+body {
+	margin:0;
+	padding:0;
+	background: #575757 url(images/bg.gif) repeat fixed left;
+	position: relative;
+	top:0px;
+}
+
+p {
+	margin: 0;
+	padding: 0px;
+	overflow: auto;
+}
+
+
+img {
+	border:	none;
+}
+
+a { color: #0ff; }
+a:link { 
+	text-decoration: underline;
+ 	text-shadow:1px 1px 7px #6bffcb;
+    color: #2afefe;
+}
+
+a:visited { 
+	color: #007bff;
+	text-decoration: underline;
+	text-shadow:1px 1px 1px #aa0000; 
+}
+
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
+.incoming, .outgoing 
+{
+  font-weight: normal;
+	text-indent: -10px;
+	padding-left: 10px;
+}
+
+/* --------- Time --------- */
+.time 
+{
+    
+	color: #007700;
+}
+
+.incoming .time 
+{
+	color: #aa6600;
+}
+
+/* ---------- Names --------- */
+.sender 
+{
+    color: #008300;
+}
+
+.incoming .sender 
+{
+	color: #aa6600;
+}
+
+
+/*  --------- Messages  --------- */
+.outgoing .message 
+{
+	color: #00ff00;
+	text-shadow:2px 2px 7px #00dd00;
+}
+
+
+
+/* ---------  History  --------- */
+.contexttime, .contextsender 
+{
+	color: #777777;
+}
+
+
+.contextmessage 
+{
+    font-style: normal;
+	color: #666666;
+}
+
+
+
+#Chat 
+{
+	margin-bottom: -10px ;
+	
+}
+
+/*  --------- Status  --------- */
+.status 
+{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 1px dotted #880000;
+	background: rgb(0,0,0,.50);
+}
+
+.status .message  
+{
+	color: #f00;
+    text-shadow:0px 0px 0px #000077; 
+}
+
+
+/* -- Incoming messages -- */
+
+
+.incoming .message 
+{
+    font-weight: normal;
+    color: #f98200;
+    text-shadow: 2px 2px 7px #ee9900; 
+}
+
+
+incoming .contextmessage 
+{
+    font-weight: normal;
+	color: #666666;
+}
+
+/* -- originally within header.html -- */
+.myContainer {
+   width:100%;
+}
+
+.myBuddy {
+   position:fixed;
+	 top: 5px;
+	 right: 0px;
+	 z-index:2;
+   padding: 3px 4px 0px 3px;
+      border: 1px dotted #ff0000;
+  float: none;
+}
+
+
+.myProtocol {
+   position:fixed; 
+	 top: 42px;
+	 z-index:2;
+  float: none;
+  right: 0;
+}
+     
+
+

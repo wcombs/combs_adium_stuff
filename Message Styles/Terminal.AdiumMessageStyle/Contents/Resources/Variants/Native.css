@@ -1,0 +1,17 @@
+html, body {
+    color: #d0d0d0;
+    background: #202020;
+}
+
+.timestamp { color: #3677a9; width: 8em; }
+.sender { color: #ed9d13; }
+.history, .autoreply { color: #999999; }
+.message { color: #d0d0d0; }
+.status, .event { color: #999999; font-style: italic; }
+.stat { background: black; }
+.error .text { color: #a61717; background: #e3d2d2; }
+
+a:link      { color: #3677a9; }
+a:visited   { color: #3677a9; }
+a:hover     { color: #ed9d13; }
+a:active    { color: #ed9d13; }

@@ -1,0 +1,81 @@
+/*
+ * Metrics for a wider variant for those over the ocean who use 12 hour clock 
+ * format :-)
+ */
+ 
+/*
+----------------------------------------------------------------------------
+        Incoming and Context incoming messages
+----------------------------------------------------------------------------
+*/
+
+.incoming .time {
+    width:7em;
+}
+
+.incoming .message {
+    margin-left:16.5em;
+}
+
+.incoming .sender {
+    min-width:7em;
+}
+
+.contextincoming .time {
+    width:7em;
+}
+
+.contextincoming .message {
+    margin-left:16.5em;
+}
+
+.contextincoming .sender {
+    min-width:7em;
+}
+
+
+/*
+----------------------------------------------------------------------------
+        Outgoing and Context outgoing messages
+----------------------------------------------------------------------------
+*/
+
+.outgoing .time {
+    width:7em;
+}
+
+.outgoing .message {
+    margin-left:16.5em;
+}
+
+.outgoing .sender {
+    min-width:7em;
+}
+
+
+.contextoutgoing .time {
+    width:7em;
+}
+
+.contextoutgoing .message {
+    margin-left:16.5em;
+}
+
+.contextoutgoing .sender {
+    min-width:7em;
+}
+
+
+/*
+----------------------------------------------------------------------------
+        Status messages
+----------------------------------------------------------------------------
+*/
+
+.status .time {
+    width:7em;
+}
+
+.status .message {
+    margin-left:9em;
+}
