@@ -42,12 +42,12 @@ a:active { text-decoration: none; }
 /* ---------- Names --------- */
 .sender 
 {
-	color:#2B60DE;
+	color:#6D7B8D;
 }
 
 .incoming .sender 
 {
-    color:#4CC417;
+	color:#357EC7;
 }
 
 
